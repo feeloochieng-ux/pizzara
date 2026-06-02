@@ -1,0 +1,327 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: rgba(183, 180, 180, 0.099);
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 20em;
+  padding-left: 4em;
+}
+.quantity {
+  color: black;
+  display: flex;
+  gap: 0.8em;
+  /* background-color:white; */
+  /* border:2px solid black; */
+  /* height:3em ; */
+  margin-top: 0;
+}
+.quantitynum {
+  /* border-left: 2px solid  #0b0b0a;
+  border-right: 2px solid  #040303; */
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+.nav-center ul {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+.home {
+  color: white;
+  background-color: rgb(252, 185, 60);
+  padding: 1em;
+  border: 10px solid rgb(252, 185, 60);
+}
+.nav-right {
+  display: flex;
+  gap: 2em;
+}
+.cart-container {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 6;
+}
+.show-cart {
+  width: 600px;
+  background-color: orange;
+}
+/* .container {
+  width: 100%;
+  margin: 0 auto;
+} */
+.content {
+  display: flex;
+  gap: 3em;
+}
+.cat {
+  position: relative;
+}
+.cart-counter {
+  justify-content: center;
+  border-radius: 50%;
+  background-color: orange;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0.7px;
+  right: -10px;
+  color: white;
+  
+}
+.cart-container-content {
+  display: flex;
+  gap: 6em;
+  align-items: center;
+  border-bottom: 3px solid black;
+}
+
+/* .left {
+  padding-left: 5em;
+} */
+.input {
+  border: none;
+}
+.pizza {
+  padding: 3em;
+}
+.search {
+  padding: 3em;
+  color: white;
+  background-color: black;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.cutlery {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 60px;
+  text-align: center;
+}
+.varieties {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+}
+.star {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  text-align: center;
+}
+.restaurant {
+  display: flex;
+  gap: 20px;
+}
+.star1 {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+.cutlery1 {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+
+.varieties1 {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+.pizza1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+
+.menu {
+  text-align: center;
+  padding-top: 8em;
+}
+span {
+  color: rgb(252, 185, 60);
+}
+
+.chick {
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 15em;
+}
+.active {
+  border-bottom: 4px solid rgb(252, 185, 60);
+  color: rgb(252, 185, 60);
+}
+.sect {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding-bottom: 6em;
+  padding-top: 5em;
+}
+.kebab {
+  padding-left: 4em;
+  padding-top: 6em;
+  background-color: whitesmoke;
+  margin-top: -7em;
+}
+.cart {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  margin-bottom: -8em;
+}
+.malo {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  padding-left: 3em;
+}
+.background {
+  background: url(../images/why-us.jpg) no-repeat;
+}
+.fresh {
+  display: grid;
+  background-color: whitesmoke;
+  padding-left: 3em;
+}
+.p {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  gap: 3em;
+}
+.tieko {
+  display: flex;
+  align-items: center;
+  gap: 10em;
+  justify-content: space-around;
+  padding-bottom: 3em;
+}
+.ima {
+  background-color: whitesmoke;
+  padding: 2em;
+  margin: -2em;
+}
+.mwisho {
+  color: white;
+  background-color: black;
+  display: flex;
+  gap: 15em;
+  padding: 4em;
+}
+.free {
+  display: flex;
+  gap: 2em;
+}
+.more {
+  color: white;
+  background-color: #eea539;
+  border: 20px solid #eea539;
+  border-radius: 10%;
+}
+.home3 {
+  padding-top: 2em;
+  margin-top: -6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+.sos {
+  color: black;
+  background-color: #fbf7f7;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  width: 50px;
+  padding: 1em;
+}
+.space {
+  text-align: center;
+}
+.email {
+  padding-right: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 2em;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.pad {
+  display: flex;
+}
+.sub {
+  color: white;
+  border: 1px solid #eea539;
+  background-color: #eea539;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  padding: 3em;
+}
+
+.ksh {
+  background-color: whitesmoke;
+  margin-top: -7em;
+  margin-bottom: -2em;
+  margin-left: -1em;
+  padding-left: 6em;
+  padding-top: 6em;
+  padding-bottom: 4em;
+}
+.to {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.too {
+  padding-left: 4em;
+}
+.feelo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7em;
+}
+.pado {
+  padding-top: 3em;
+}
+.head {
+  border: 1px solid rgba(213, 209, 209, 0.099);
+  background-color: rgba(208, 204, 204, 0.099);
+  padding: 2em;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 1px;
+  padding-left: 5em;
+}
+.mbota {
+  border-radius: 50%;
+}
+.background {
+  background-image: url("images/why-us.jpg");
+}
